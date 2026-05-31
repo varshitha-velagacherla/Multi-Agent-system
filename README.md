@@ -97,7 +97,7 @@ The pipeline runs 4 stages sequentially:
 
 ## Deployment
 
-Live Demo: https://multi-agent-system.streamlit.app
+Live Demo: https://multi-agent-system-ai.streamlit.app/
 
 This app is deployed on **Streamlit Community Cloud**. To deploy your own instance:
 
