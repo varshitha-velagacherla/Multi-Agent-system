@@ -1,5 +1,5 @@
 from langchain.agents import create_agent
-from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from tools import web_search, scrape_url
@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ##model setup
-llm = ChatOllama(
-    model="qwen2.5:1.5b",
-    temperature=0
+llm = ChatGroq(
+    groq_api_key=os.getenv("GROQ_API_KEY"),
+    model_name="llama-3.3-70b-versatile"
 )
 
 ##1st agent
