@@ -50,7 +50,7 @@ multi-agent-system/
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/Vatshitha392/multi-agent-system.git
+git clone https://github.com/varshitha-velagacherla/multi-agent-system.git
 cd multi-agent-system
 ```
 
